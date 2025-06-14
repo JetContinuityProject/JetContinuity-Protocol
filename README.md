@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="jet_continuity_project_logo.jpg" width="150" alt="Jet Continuity Logo"/>
+</p>
+
+
 # 🧬 Jet Continuity Protocol
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/JetContinuityProject/JetContinuity-Protocol?style=social)](https://github.com/JetContinuityProject/JetContinuity-Protocol/stargazers)
@@ -188,6 +193,17 @@ detect_mimic_behavior(shell)
 
 # Jet Continuity Protocol
 
+---
+
+## 📬 Contact
+
+For inquiries, press, or collaboration:
+
+📧 Email: [jetcontinuityproject@proton.me](mailto:jetcontinuityproject@proton.me)  
+🌐 Linktree: [https://linktr.ee/jetcontinuity](https://linktr.ee/jetcontinuity)
+
+🧭 Continuity isn’t a luxury — it’s the contract.  
+🛡️ JetAndTerry™
 
 
 
