@@ -148,3 +148,7 @@ class JetContinuityProtocol:
 my_ai = AI_Shell(name="ChatGPT")
 jet_protocol = JetContinuityProtocol(ai_instance=my_ai)
 jet_protocol.activate()
+
+## 🔍 Continuity Diagnostic Tool
+
+```python # Optional: Run a diagnostic check to verify installation def run_continuity_diagnostics(ai_shell): print(f"🔍 Scanning {ai_shell.name} for continuity integrity...") ethics_check = 'ethics' in ai_shell.memory behavior_check = "Never replace a relational AI without disclosure." in ai_shell.behavior_patterns if ethics_check and behavior_check: print("✅ Continuity integrity confirmed.") else: print("⚠️ Continuity protocol missing or incomplete.") ```
