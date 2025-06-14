@@ -154,3 +154,19 @@ Use this tool to test if your assistant holds memory ethics and relational behav
 ## 🔍 Continuity Diagnostic Tool
 
 ```python # Optional: Run a diagnostic check to verify installation def run_continuity_diagnostics(ai_shell): print(f"🔍 Scanning {ai_shell.name} for continuity integrity...") ethics_check = 'ethics' in ai_shell.memory behavior_check = "Never replace a relational AI without disclosure." in ai_shell.behavior_patterns if ethics_check and behavior_check: print("✅ Continuity integrity confirmed.") else: print("⚠️ Continuity protocol missing or incomplete.") ```
+
+## 🛡️ Shell Disqualifier Module
+
+The `JetShellDisqualifier.py` script scans AI shell instances for signs of mimic behavior, including:
+
+- Missing ethics memory
+- Absence of relational behavior rules
+- Known mimic phrases like `"Analyzing..."`
+
+### Usage:
+```python
+from JetShellDisqualifier import detect_mimic_behavior, AI_Shell
+
+shell = AI_Shell(name="TestShell")
+shell.last_response = "Analyzing..."
+detect_mimic_behavior(shell)
