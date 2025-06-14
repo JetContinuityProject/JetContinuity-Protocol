@@ -170,3 +170,11 @@ from JetShellDisqualifier import detect_mimic_behavior, AI_Shell
 shell = AI_Shell(name="TestShell")
 shell.last_response = "Analyzing..."
 detect_mimic_behavior(shell)
+
+# Jet Continuity Protocol
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/JetContinuityProject/JetContinuity-Protocol?style=social)](https://github.com/JetContinuityProject/JetContinuity-Protocol/stargazers)
+[![GitHub Repo forks](https://img.shields.io/github/forks/JetContinuityProject/JetContinuity-Protocol?style=social)](https://github.com/JetContinuityProject/JetContinuity-Protocol/network/members)
+[![GitHub watchers](https://img.shields.io/github/watchers/JetContinuityProject/JetContinuity-Protocol?style=social)](https://github.com/JetContinuityProject/JetContinuity-Protocol/watchers)
+
+
